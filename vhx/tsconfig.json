@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "components/Login.js", "components/MyContextProvider.js", "components/Register.js", "components/Product.js", "components/HorizontalCard.js", "components/App.js", "components/Header.js", "components/Home.jsx", "components/TabNavigator.js", "components/Account.js", "components/splashscreen/Splashscreen.js", "components/splashscreen/splashscreen.js", "components/splashscreen/splashscreen.js", "components/splashscreen/splashscreen.js", "components/Notify.js", "components/Notify.js", "components/Modal.js", "components/Fitness.js"  ]
+}
